@@ -1,0 +1,51 @@
+.row {
+    display: flex;
+}
+.col {
+    background-color: teal;
+    flex: 1;
+    margin: 10px;
+    width: 400px;
+    height: 150px;
+    display: flex;
+    align-items: center;
+}
+.row .col {
+    flex: 1;
+}
+.col-2 {
+    flex: 2;
+    background-color: teal;
+    margin: 10px;
+    width: 400px;
+    height: 150px;
+    display: flex;
+    align-items: center;
+}
+.row .col-2 {
+    flex: 2;
+    background-color: teal;
+    margin: 10px;
+    width: 400px;
+    height: 150px;
+    display: flex;
+    align-items: center;
+}
+.col-3 {
+    background-color: teal;
+    margin: 10px;
+    width: 400px;
+    height: 150px;
+    display: flex;
+    align-items: center;
+    flex: 3
+}
+.col {
+    color: white;
+}
+.col-2 {
+    color: white
+}
+.col-3 {
+    color: white;
+}
